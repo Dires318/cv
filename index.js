@@ -1,7 +1,7 @@
 
 
 $(function(){
-    $("#header").load("/base/header.html"); 
+    $("#header").load("/cv/base/header.html"); 
     // $("#footer").load("footer.html"); 
   });
   
