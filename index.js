@@ -1,6 +1,6 @@
 
-var dir = "./";
-// var dir "/cv/";
+// var dir = "./";
+var dir = "/cv/";
 
 $(function(){
     $("#header").load(dir + "base/header.html"); 
