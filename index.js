@@ -1,6 +1,6 @@
 
-var dir = "/"; //local directory
-// var dir = "/cv/";  //github directory
+// var dir = "/"; //local directory
+var dir = "/cv/";  //github directory
 
 $(function(){
     $("#head").load(dir + "base/head.html"); 
