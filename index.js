@@ -1,13 +1,10 @@
 
-// var dir = "/"; //local directory
-var dir = "/cv/";  //github directory
-
 $(function(){
-    $("#head").load(dir + "base/head.html"); 
-    $("#header").load(dir + "base/header.html"); 
-    $('head').append('<link rel="stylesheet" href="'+ dir + 'css/style.css" >');
-    // $("#body").load(dir + "pages/home.html")
-    $("#footer").load(dir + "base/footer.html"); 
+    $("#head").load("/cv/base/head.html"); 
+    $("#header").load("/cv/base/header.html"); 
+    $('head').append('<link rel="stylesheet" href="/cv/css/style.css" >');
+    // $("#body").load("/cv/pages/home.html")
+    $("#footer").load("/cv/base/footer.html"); 
   });
   
 
