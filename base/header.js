@@ -1,11 +1,9 @@
-const menuItems = document.querySelectorAll('#menu a');
-
+const menuItems = document.querySelectorAll('.menu li a');
 menuItems.forEach(item => {
-    item.addEventListener('click', function () {
-        // Remove the 'active' class from all links
-        menuItems.forEach(link => link.classList.remove('active'));
-
-        // Add the 'active' class to the clicked link
-        this.classList.add('active');
-    });
-});
+    if (window.location.href == item.href){
+        item.classList.add("text-blue-700")
+    }
+    else {
+        item.classList.add("text-gray-900")
+        item.classList.add("dark:text-white")
+    }});
