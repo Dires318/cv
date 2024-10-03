@@ -655,6 +655,42 @@ video {
   height: 1.25rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[calc\(100vh-100px\)\] {
+  height: calc(100vh - 100px);
+}
+
+.h-\[calc\(100vh-120px\)\] {
+  height: calc(100vh - 120px);
+}
+
+.h-\[calc\(100vh-110px\)\] {
+  height: calc(100vh - 110px);
+}
+
+.h-\[calc\(100vh-108px\)\] {
+  height: calc(100vh - 108px);
+}
+
+.h-\[calc\(100vh-196px\)\] {
+  height: calc(100vh - 196px);
+}
+
+.h-\[calc\(100vh-96px\)\] {
+  height: calc(100vh - 96px);
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -727,6 +763,26 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .whitespace-nowrap {
