@@ -4,10 +4,28 @@
 <head id="head"></head>
 
 
-<body class="bg-white dark:bg-gray-900 min-w-full mb-4 dark:text-white">
+<body class="bg-gray-100 dark:bg-gray-900 min-w-full mb-4 dark:text-white">
     <div id="header" class="sticky top-0"></div>
     <section class="overflow-auto h-[calc(100vh-96px)]">
-        This is Home
+        <div class="max-w-screen-lg mx-auto">
+            <div class="grid pt-20 grid-cols-2">
+
+                <img src="/cv/images/profile.jpg" alt="Profile Picture" class=" p-20 rounded-full">
+                <div class="px-10 py-20 ">
+                    <h1 class="text-4xl font-bold pb-10">Hello</h1>
+                    <h2 class="font-bold text-lg">A Bit About Me</h2>
+                    <p>
+                        I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                    </p>
+                    <div class="flex px-2 pt-10 justify-between gap-2">
+                        <div class="rounded-full text-center h-32 w-32 flex items-center justify-center text-black bg-[#EEA302]">Resume</div>
+                        <div class="rounded-full text-center h-32 w-32 flex items-center justify-center text-black bg-[#FF3B25]">Projects</div>
+                        <div class="rounded-full text-center h-32 w-32 flex items-center justify-center text-black bg-[#80D8DA]">Contact</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
     <!-- the footer of the website -->
     <div id="footer" class="fixed bottom-0 bg-blue-600 min-w-full"></div>
@@ -16,4 +34,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <!-- javasript link -->
 <script src="/cv/index.js"></script>
+
 </html>
